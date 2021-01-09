@@ -1,0 +1,347 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed, 
+figure,
+figcaption,
+footer,
+header,
+hgroup, 
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure, 
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+    
+
+ul li a{
+  background-color: #899cf1;
+  font-size: 10px;
+  padding: 20px;
+  margin: 0;
+  color: white;
+  position: relative;
+}
+
+.button{
+  margin-right: 10px;
+  border-radius: 12px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+li p{
+
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.nav-list li a{
+  text-decoration: none;
+}
+.nav-list{
+  background-color: #899cf1;
+}
+
+.part1{
+  background: url(../images/images.jpg) no-repeat center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+h2{
+  font-size: 30px;
+  margin-bottom: 15px;
+
+}
+.Servising p{
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.part1 a{
+position: relative;
+}
+.Servising{
+  padding: 40px 600px 40px 40px;
+  
+
+  color: white;
+}
+
+.button2{
+  background-color: rgba(59, 58, 58, 0.692);
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+.Servising a:hover{
+  background-color: #899cf1;
+  color: white;
+}
+.Servising a:visited {
+  background-color: #c0c7e5;
+  color: white;
+}
+
+.Servising a:active{
+  background-color: white;
+  color: white;
+}
+
+.item1 { grid-area: A; }
+.item2 { grid-area: B; }
+.item3 { grid-area: C; }
+.item4 { grid-area: D; }
+.item5 { grid-area: E; }
+.item6 { grid-area: F; }
+.item7 { grid-area: G; }
+.item8 { grid-area: H; }
+
+.support {
+  display: grid;
+  grid-template-areas:
+                       "A A A B B B"
+                       "C C D D E E"
+                       "F F G G H H";
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 2rem;
+  
+}
+.A{
+  grid-area: A;
+}
+
+.B{
+  grid-area: B;
+}
+
+.C{
+  grid-area: C;
+}
+
+.D{
+  grid-area: D;
+}
+
+.E{
+  grid-area: E;
+}
+
+.F{
+  grid-area: F;
+}
+
+.G{
+  grid-area: G;
+}
+
+.H{
+  grid-area: H;
+}
+
+
+.support{
+  padding: 40px 100px 40px 100px;
+}
+
+.one{
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.one p1{
+  font-size: 10px;
+}
+.one p2{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.two{
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.three,
+.four,
+.five{ 
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 60px 0px 60px 0px;
+  line-height: 20px;
+  margin-bottom: 20px;
+
+}
+
+.six,
+.seven,
+.eight{
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.safe-covid{
+  background: url(../images/medtesting_feat.jpg) no-repeat center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.safe{
+  text-align: right;
+  padding: 70px 120px 0px 500px;
+  
+}
+
+.safe h3{
+font-size: 20px;
+font-weight: bold;
+line-height: 20px;
+}
+
+.safe p{
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.button3{
+  color: black;
+  background-color: white;
+  border-radius: 12px;
+  padding: 5px;
+  text-decoration: none;
+  line-height: 50px;
+}
